@@ -20,4 +20,4 @@ layout: defualt
 visibility: public
 order:
 redirect:
-route: home
+route:
