@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://github.com/Dev0-bot/dev0-docs/sitemap.xml.gz
+Sitemap: https://dev0.devvyy.xyz/sitemap.xml.gz
