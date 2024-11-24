@@ -53,8 +53,8 @@ url: https://github.com/Dev0-bot/dev0-docs
 
 branding:
   title: DEV0
-  logo: assets/LogoDark.png
-  logoDark: assets/LogoDark.png
+  logo: assets/Logo.png
+  logoDark: assets/Logo.png
   logoAlign: left            # Align the logo to the right or the left
   label: v1.1.1
                               # To remove the label, remove this config
@@ -125,7 +125,7 @@ exclude:                      # Files or folders to exclude from the build
 
 # -----------------------------------------------------------------------------
 
-favicon: static/favicon.png   # Path to a custom favicon, or
+favicon: assets/Logo.png   # Path to a custom favicon, or
                               # just put a favicon.ico in your project root
 
 # -----------------------------------------------------------------------------
@@ -163,7 +163,7 @@ markdown:                     # Markdown configuration options
 # -----------------------------------------------------------------------------
 
 meta:
-  title: " | Bot Maker 4 Discord"         # Appended to the <title> element on all pages
+  title: " | DEV0"         # Appended to the <title> element on all pages
 
 # -----------------------------------------------------------------------------
 
