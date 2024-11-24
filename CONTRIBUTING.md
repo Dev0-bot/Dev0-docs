@@ -6,7 +6,7 @@ layout: defualt
 categories: [guide]
 tags: [guide]
 expanded: true
-visibility: public
+visibility: hidden
 ---
 # Uploading Mods via GitHub Pull Requests
 
