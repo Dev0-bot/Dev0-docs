@@ -36,13 +36,13 @@ outbound:
 # Retype
 # -----------------------------------------------------------------------------
 
-input: .                      # Local path from this retype.yml file to the
+input: ./docs                   # Local path from this retype.yml file to the
                               # root of your project content files
                               # See also: output
 
 # -----------------------------------------------------------------------------
 
-output: .retype               # Custom path to the output directory
+output: .               # Custom path to the output directory
                               # See also: input
 
 # -----------------------------------------------------------------------------
