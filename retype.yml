@@ -36,7 +36,7 @@ outbound:
 # Retype
 # -----------------------------------------------------------------------------
 
-input: ./docs                   # Local path from this retype.yml file to the
+input: .                   # Local path from this retype.yml file to the
                               # root of your project content files
                               # See also: output
 
@@ -152,7 +152,7 @@ integrations:
     enabled: true             # false to disable using Gravatar images
     default: mp               # What Gravatar profile image to use
   plausible:                  # Plausible.io integration
-    domain: domain1.com,domain2.com # Your plausible domain(s)
+    domain: dev0.devvyy.xyz # Your plausible domain(s)
     host: plausible.example.com     # Custom Plausible host name
 
 # -----------------------------------------------------------------------------
