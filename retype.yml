@@ -56,10 +56,10 @@ branding:
   logo: assets/LogoDark.png
   logoDark: assets/LogoDark.png
   logoAlign: left            # Align the logo to the right or the left
-  label:                  # Optional label
+  label: v1.1.1
                               # To remove the label, remove this config
   colors:
-    label:                    # Label colors
+    label:
       text: "#ffffff"         # Custom color for the label text
       background: "#ff0000"   # Custom color for the label background
 
