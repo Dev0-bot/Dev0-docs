@@ -20,4 +20,4 @@ layout: defualt
 visibility: hidden
 order:
 redirect: https://discord.com/oauth2/authorize?client_id=1274061900296093756&permissions=8&integration_type=0&scope=bot
-route: invite
+route: privacy

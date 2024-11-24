@@ -20,4 +20,4 @@ layout: defualt
 visibility: hidden
 order:
 redirect: https://discord.gg/WmFDeMKvzj
-route: invite
+route: discord

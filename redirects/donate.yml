@@ -20,4 +20,4 @@ layout: defualt
 visibility: hidden
 order:
 redirect: https://github.com/sponsors/devvyyxyz
-route: invite
+route: donate

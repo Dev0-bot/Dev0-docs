@@ -20,4 +20,4 @@ layout: defualt
 visibility: hidden
 order:
 redirect: https://top.gg/bot/1274061900296093756
-route: invite
+route: vote

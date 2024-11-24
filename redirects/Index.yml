@@ -20,4 +20,4 @@ layout: defualt
 visibility: hidden
 order:
 redirect: donate
-route: invite
+route: redirects
