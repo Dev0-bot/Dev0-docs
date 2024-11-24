@@ -1,0 +1,23 @@
+author:
+  name: devvyyxyz
+  avatar: ./assets/Logo.png
+  email: devvyydev@protonmail.com
+category: [main]
+tags: [home, info, basic]
+
+icon: home
+label: Home
+title: Home
+description: This is a custom description for this page
+image: assets/WordmarkBackground.png
+
+meta:
+  title:
+
+expanded: true
+templating: false
+layout: defualt
+visibility: public
+order:
+redirect:
+route: home

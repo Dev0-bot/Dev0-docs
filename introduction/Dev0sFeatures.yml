@@ -1,0 +1,23 @@
+author:
+  name: 
+  avatar: 
+  email:
+category: [Introduction]
+tags: [introduction, docs]
+
+icon: dot-fill
+label: Dev0s features
+title: 
+description: 
+image: assets/WordmarkBackground.png
+
+meta:
+  title:
+
+expanded: false
+templating: false
+layout: defualt
+visibility: public
+order:
+redirect:
+route: intro/features

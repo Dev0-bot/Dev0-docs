@@ -1,0 +1,23 @@
+author:
+  name: 
+  avatar: 
+  email: 
+category: [FAQ]
+tags: [faq, docs, question, answer]
+
+icon: question
+label: FAQ
+title: 
+description: 
+image: assets/WordmarkBackground.png
+
+meta:
+  title:
+
+expanded: false
+templating: false
+layout: defualt
+visibility: public
+order: 97
+redirect:
+route: faq

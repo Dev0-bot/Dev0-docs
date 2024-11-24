@@ -1,0 +1,23 @@
+author:
+  name:
+  avatar: 
+  email:
+category: [Redirects]
+tags: [redirect, invite]
+
+icon: 
+label: 
+title: 
+description: 
+image: assets/WordmarkBackground.png
+
+meta:
+  title:
+
+expanded: true
+templating: false
+layout: defualt
+visibility: public
+order:
+redirect: https://discord.com/oauth2/authorize?client_id=1274061900296093756&permissions=8&integration_type=0&scope=bot
+route: invite

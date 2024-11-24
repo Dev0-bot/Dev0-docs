@@ -1,0 +1,23 @@
+author:
+  name: devvyyxyz
+  avatar: ./assets/Logo.png
+  email: devvyydev@protonmail.com
+category: [Introduction]
+tags: [introduction, docs]
+
+icon: inbox
+label: Introduction
+title: 
+description: 
+image: assets/WordmarkBackground.png
+
+meta:
+  title:
+
+expanded: false
+templating: false
+layout: defualt
+visibility: public
+order: 99
+redirect:
+route: intro

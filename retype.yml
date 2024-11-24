@@ -42,7 +42,7 @@ input: .                   # Local path from this retype.yml file to the
 
 # -----------------------------------------------------------------------------
 
-output: .               # Custom path to the output directory
+output: .retype               # Custom path to the output directory
                               # See also: input
 
 # -----------------------------------------------------------------------------
@@ -87,9 +87,12 @@ footer:
     - text: Code of conduct
       link: CODE_OF_CONDUCT.md
       icon: code-of-conduct
+    - text: Contributing
+      link: CONTRIBUTING.md
+      icon: git-branch
     - text: Source
       link: https://github.com/Dev0-bot/dev0-docs
-      icon: assets/GitHub.svg
+      icon: mark-github
 
 # -----------------------------------------------------------------------------
 

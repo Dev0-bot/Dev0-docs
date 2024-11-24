@@ -1,0 +1,23 @@
+author:
+  name: devvyyxyz
+  avatar: ./assets/Logo.png
+  email: devvyydev@protonmail.com
+category: [Changelog]
+tags: [changelog, docs, logs]
+
+icon: archive
+label: Changelog
+title: 
+description: 
+image: assets/WordmarkBackground.png
+
+meta:
+  title:
+
+expanded: false
+templating: false
+layout: defualt
+visibility: public
+order: 100
+redirect:
+route: changelog

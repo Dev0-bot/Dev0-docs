@@ -1,0 +1,23 @@
+author:
+  name: devvyyxyz
+  avatar: ./assets/Logo.png
+  email: devvyydev@protonmail.com
+category: [main, general]
+tags: [commands, docs, basic]
+
+icon: list-unordered
+label: Commands
+title: 
+description: 
+image: assets/WordmarkBackground.png
+
+meta:
+  title:
+
+expanded: true
+templating: false
+layout: defualt
+visibility: public
+order: 98
+redirect:
+route: commands

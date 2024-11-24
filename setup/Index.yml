@@ -1,0 +1,23 @@
+author:
+  name: 
+  avatar:
+  email: 
+category: [Setup]
+tags: [setup, docs, basic]
+
+icon: archive
+label: Setup
+title: 
+description: 
+image: assets/WordmarkBackground.png
+
+meta:
+  title:
+
+expanded: false
+templating: false
+layout: defualt
+visibility: public
+order: 96
+redirect:
+route: setup
