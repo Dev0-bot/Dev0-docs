@@ -24,12 +24,8 @@ outbound:
   iconAlign: left             # Icon alignment, to the left or right
   target: blank               # Custom target
                               # Use "blank" to open link in a new window
-  exclude:                    # Links or patterns to exclude
-    - example.com             # Exclude all links containing example.com
-    - example.com/docs/*      # Wildcards are valid
-  include:                    # Links or patterns to include
-    - example.com             # Only include links containing example.com
-    - example.com/docs/*      # Wildcards are valid
+  exclude:
+  include:
 
 
 # -----------------------------------------------------------------------------
@@ -47,7 +43,7 @@ output: .retype               # Custom path to the output directory
 
 # -----------------------------------------------------------------------------
 
-url: https://github.com/Dev0-bot/dev0-docs
+url: https://dev0.devvyy.xyz
 
 # -----------------------------------------------------------------------------
 
@@ -61,15 +57,21 @@ branding:
   colors:
     label:
       text: "#ffffff"         # Custom color for the label text
-      background: "#ff0000"   # Custom color for the label background
+      background: "#92de83"   # Custom color for the label background
 
 # -----------------------------------------------------------------------------
 
 links:                        # Custom links to add to the top bar
                               # See also: footer.links
-- text: Temp
-  link: https://github.com/Dev0-bot/dev0-docs
-  icon: bookmark-fill
+- text: Invite
+  link: https://dev0.devvyy.xyz/invite
+  icon: paper-airplane
+- text: Donate
+  link: https://dev0.devvyy.xyz/invite
+  icon: heart-fill
+- text: Vote
+  link: https://dev0.devvyy.xyz/invite
+  icon: inbox
                               # a path to a file
   iconAlign: left           # Icon alignment, to the left or right
   target: blank             # Custom target
@@ -155,18 +157,18 @@ integrations:
     enabled: true             # false to disable using Gravatar images
     default: mp               # What Gravatar profile image to use
   plausible:                  # Plausible.io integration
-    domain: dev0.devvyy.xyz # Your plausible domain(s)
+    domain: dev0.devvyy.xyz,dev0-bot.github.io/dev0-docs/ # Your plausible domain(s)
     host: plausible.example.com     # Custom Plausible host name
 
 # -----------------------------------------------------------------------------
 
 markdown:                     # Markdown configuration options
-  lineBreaks: hard            # Switch between `soft` and `hard` line breaks
+  lineBreaks: soft            # Switch between `soft` and `hard` line breaks
 
 # -----------------------------------------------------------------------------
 
 meta:
-  title: " | DEV0"         # Appended to the <title> element on all pages
+  title: " | DEV0 DOCS"         # Appended to the <title> element on all pages
 
 # -----------------------------------------------------------------------------
 
