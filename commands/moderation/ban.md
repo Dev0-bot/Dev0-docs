@@ -7,6 +7,7 @@ The `/ban` commandallows server admins to permanently remove a member from the s
 
 ---
 
+## Syntax
 !!! Text command syntax
 **\ban** **MEMBER(S)** **PARAMETER(S)**
 !!!
@@ -36,22 +37,12 @@ This command will ban the user "@User123" with the reason: "Spamming inappropria
 ---
 
 ## **Parameters**
-
-###`@user`
-- **Type**: Mention or User ID
-- **Description**: Specifies the user to ban.
-- **Required**: Yes
-
-### `reason`
-- **Type**: Text
-- **Description**: Explains why the user is being banned. This reason is logged and optionally shown to the banned user.
-- **Required**: No
-
-### `days`
-- **Type**: Number (0-7)
-- **Description**: Deletes the user’s messages ✉️ from the past `n` days (0 = none, 7 = all messages).
-- **Required**: No
-- **Default**: `0`
+Paramater | Info
+-- | --
+[!badge variant="success" text="!user"] | Specifies the user to ban.
+[!badge variant="success" text="?limit"] | A
+[!badge variant="success" text="?reason"] | Explains why the user is being banned. This reason is logged and optionally shown to the banned user.
+[!badge variant="success" text="?--silent"] | A
 
 ---
 
@@ -78,10 +69,4 @@ Make sure both you and the bot have the correct permissions to execute the comma
 - **Fix**: Check if the bot’s role hierarchy is above the user’s role.
 
 ---
-
-##**Additional Notes**
-- Banned users cannot rejoin the server until unbanned via `/unban`.
-- Reasons provided are visible in the server audit log.
-- For bulk bans, consider scripting or contacting an administrator.
-- Mistakenly banned someone? Use `/unban @user` to lift the ban.
 
