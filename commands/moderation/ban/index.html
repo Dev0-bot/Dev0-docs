@@ -5,14 +5,15 @@
 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.6.0.785802486764">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.6.0.785948061347">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 3.6.0">
 
     <!-- Primary Meta Tags -->
-    <title>Ban | DEV0 DOCS</title>
-    <meta name="title" content="Ban | DEV0 DOCS">
+    <title>/ban Command Documentation | DEV0 DOCS</title>
+    <meta name="title" content="/ban Command Documentation | DEV0 DOCS">
+    <meta name="description" content="The /ban command allows server administrators to permanently ban a member from the server, preventing them from rejoining until unbanned.">
 
     <!-- Canonical -->
     <link rel="canonical" href="https://dev0.devvyy.xyz/commands/moderation/ban/">
@@ -20,21 +21,23 @@
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://dev0.devvyy.xyz/commands/moderation/ban/">
-    <meta property="og:title" content="Ban | DEV0 DOCS">
+    <meta property="og:title" content="/ban Command Documentation | DEV0 DOCS">
+    <meta property="og:description" content="The /ban command allows server administrators to permanently ban a member from the server, preventing them from rejoining until unbanned.">
 
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image">
     <meta property="twitter:url" content="https://dev0.devvyy.xyz/commands/moderation/ban/">
-    <meta property="twitter:title" content="Ban | DEV0 DOCS">
+    <meta property="twitter:title" content="/ban Command Documentation | DEV0 DOCS">
+    <meta property="twitter:description" content="The /ban command allows server administrators to permanently ban a member from the server, preventing them from rejoining until unbanned.">
 
     <script data-cfasync="false">(function () { var el = document.documentElement, m = localStorage.getItem("doc_theme"), wm = window.matchMedia; if (m === "dark" || (!m && wm && wm("(prefers-color-scheme: dark)").matches)) { el.classList.add("dark") } else { el.classList.remove("dark") } })();</script>
 
     <link href="../../../assets/logo.png" rel="icon">
-    <link href="../../../resources/css/retype.css?v=3.6.0.785802486764" rel="stylesheet">
+    <link href="../../../resources/css/retype.css?v=3.6.0.785948061347" rel="stylesheet">
 
-    <script data-cfasync="false" src="../../../resources/js/config.js?v=3.6.0.785802486764" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="../../../resources/js/config.js?v=3.6.0.785948061347" data-turbo-eval="false" defer></script>
     <script data-cfasync="false" src="../../../resources/js/retype.js?v=3.6.0" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" data-cfasync="false" src="../../../resources/js/lunr.js?v=3.6.0.785802486764" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="../../../resources/js/lunr.js?v=3.6.0.785948061347" data-turbo-eval="false" defer></script>
 </head>
 <body>
     <div id="docs-app" class="relative text-base antialiased text-gray-700 bg-white font-body dark:bg-dark-850 dark:text-dark-300">
@@ -221,12 +224,160 @@
                                 <!-- Rendered if sidebar right is enabled -->
                                 <div id="docs-sidebar-right-toggle"></div>
                                 <!-- Page content  -->
-<doc-anchor-target id="ban" class="break-words">
+<doc-anchor-target id="ban-command-documentation" class="break-words">
     <h1>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#ban">#</doc-anchor-trigger>
-        <span>Ban</span>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#ban-command-documentation">#</doc-anchor-trigger>
+        <span>/ban Command Documentation</span>
     </h1>
 </doc-anchor-target>
+<doc-anchor-target id="description">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#description">#</doc-anchor-trigger>
+        <span>Description</span>
+    </h2>
+</doc-anchor-target>
+<p>The <code v-pre>/ban</code> command allows server administrators to permanently ban a member from the server, preventing them from rejoining until unbanned.</p>
+<hr>
+<doc-anchor-target id="aliases">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#aliases">#</doc-anchor-trigger>
+        <span>Aliases</span>
+    </h2>
+</doc-anchor-target>
+<ul>
+<li><code v-pre>/ban</code></li>
+<li><code v-pre>/block</code></li>
+</ul>
+<hr>
+<doc-anchor-target id="use-case">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#use-case">#</doc-anchor-trigger>
+        <span>Use Case</span>
+    </h2>
+</doc-anchor-target>
+<p>The <code v-pre>/ban</code> command is used to enforce server rules by removing disruptive members from the server. This ensures a safe and friendly environment for all members.</p>
+<doc-anchor-target id="example">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#example">#</doc-anchor-trigger>
+        <span>Example:</span>
+    </h3>
+</doc-anchor-target>
+<div class="codeblock-wrapper"><doc-codeblock line-numbers>
+<pre class="language-none"><code v-pre class="language-none">/ban @User123 Spamming inappropriate messages</code></pre>
+</doc-codeblock></div>
+<p>This command will ban the user &quot;@User123&quot; with the reason &quot;Spamming inappropriate messages.&quot;</p>
+<hr>
+<doc-anchor-target id="parameters">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#parameters">#</doc-anchor-trigger>
+        <span>Parameters</span>
+    </h2>
+</doc-anchor-target>
+<doc-anchor-target id="user">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#user">#</doc-anchor-trigger>
+        <span><code v-pre>@user</code></span>
+    </h3>
+</doc-anchor-target>
+<ul>
+<li><strong>Type</strong>: Mention or User ID</li>
+<li><strong>Description</strong>: Specifies the user to be banned.</li>
+<li><strong>Required</strong>: Yes</li>
+</ul>
+<doc-anchor-target id="reason">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#reason">#</doc-anchor-trigger>
+        <span><code v-pre>reason</code></span>
+    </h3>
+</doc-anchor-target>
+<ul>
+<li><strong>Type</strong>: String</li>
+<li><strong>Description</strong>: The reason for banning the user. This will be logged and can be provided to the banned user if necessary.</li>
+<li><strong>Required</strong>: No</li>
+</ul>
+<doc-anchor-target id="days">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#days">#</doc-anchor-trigger>
+        <span><code v-pre>days</code></span>
+    </h3>
+</doc-anchor-target>
+<ul>
+<li><strong>Type</strong>: Integer (0-7)</li>
+<li><strong>Description</strong>: Optionally deletes the banned user&#x27;s messages from the past <code v-pre>n</code> days (0 for none, 7 for all messages from the past 7 days).</li>
+<li><strong>Required</strong>: No</li>
+<li><strong>Default</strong>: 0</li>
+</ul>
+<hr>
+<doc-anchor-target id="permissions">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#permissions">#</doc-anchor-trigger>
+        <span>Permissions</span>
+    </h2>
+</doc-anchor-target>
+<ul>
+<li><strong>Required Permission</strong>: <code v-pre>BAN_MEMBERS</code></li>
+<li><strong>Bot Required Permission</strong>: <code v-pre>BAN_MEMBERS</code></li>
+</ul>
+<p>Ensure that both the user executing the command and the bot have the appropriate permissions.</p>
+<hr>
+<doc-anchor-target id="notes">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#notes">#</doc-anchor-trigger>
+        <span>Notes</span>
+    </h2>
+</doc-anchor-target>
+<ul>
+<li>Banned users will not be able to rejoin the server until unbanned using the <code v-pre>/unban</code> command.</li>
+<li>The reason provided (if any) will be logged and visible in the audit log.</li>
+</ul>
+<hr>
+<doc-anchor-target id="errors">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#errors">#</doc-anchor-trigger>
+        <span>Errors</span>
+    </h2>
+</doc-anchor-target>
+<doc-anchor-target id="missing-permissions">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#missing-permissions">#</doc-anchor-trigger>
+        <span>Missing Permissions</span>
+    </h3>
+</doc-anchor-target>
+<ul>
+<li><strong>Message</strong>: &quot;You do not have the required permissions to use this command.&quot;</li>
+<li><strong>Solution</strong>: Ensure the user has the <code v-pre>BAN_MEMBERS</code> permission.</li>
+</ul>
+<doc-anchor-target id="missing-parameters">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#missing-parameters">#</doc-anchor-trigger>
+        <span>Missing Parameters</span>
+    </h3>
+</doc-anchor-target>
+<ul>
+<li><strong>Message</strong>: &quot;Please specify a user to ban.&quot;</li>
+<li><strong>Solution</strong>: Provide a valid user mention or ID.</li>
+</ul>
+<doc-anchor-target id="invalid-user">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#invalid-user">#</doc-anchor-trigger>
+        <span>Invalid User</span>
+    </h3>
+</doc-anchor-target>
+<ul>
+<li><strong>Message</strong>: &quot;The specified user cannot be banned.&quot;</li>
+<li><strong>Solution</strong>: Ensure the bot has a higher role than the user being banned.</li>
+</ul>
+<hr>
+<doc-anchor-target id="additional-information">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#additional-information">#</doc-anchor-trigger>
+        <span>Additional Information</span>
+    </h2>
+</doc-anchor-target>
+<ul>
+<li>For bulk banning, consider scripting or contacting the server administrator for assistance.</li>
+<li>If you accidentally ban a user, use <code v-pre>/unban @user</code> to revoke the ban.</li>
+</ul>
 
                                 
                                 <!-- Required only on API pages -->
@@ -339,6 +490,6 @@
 
     <div id="docs-overlay-target"></div>
 
-    <script data-cfasync="false">window.__DOCS__ = { "title": "Ban", level: 3, icon: "file", hasPrism: false, hasMermaid: false, hasMath: false, tocDepth: 23 }</script>
+    <script data-cfasync="false">window.__DOCS__ = { "title": "/ban Command Documentation", level: 3, icon: "file", hasPrism: false, hasMermaid: false, hasMath: false, tocDepth: 23 }</script>
 </body>
 </html>
