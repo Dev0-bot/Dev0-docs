@@ -1,78 +1,87 @@
-# /ban Command Documentation
-
-## Description
-The `/ban` command allows server administrators to permanently ban a member from the server, preventing them from rejoining until unbanned.
+# Ban
 
 ---
 
-## Aliases
-- `/ban`
-- `/block`
+## **Description**
+The `/ban` commandallows server admins to permanently remove a member from the server, blocking them from rejoining until unbanned.
 
 ---
 
-## Use Case
-The `/ban` command is used to enforce server rules by removing disruptive members from the server. This ensures a safe and friendly environment for all members.
+!!! Text command syntax
+**\ban** **MEMBER(S)** **PARAMETER(S)**
+!!!
 
-### Example:
+!!! Slash command syntax
+**/Ban**`!user:` `?limit:` `?reason:` `?--silent:`
+
+Note: Any parameter prefixed with ! is **required**, and ones with ? Are optional
+!!!
+
+
+## **Aliases**
+[!badge \ban] | [!badge \b]
+---    | ---
+
+---
+
+## **Usage**
+The `/ban` command helps enforce server rules by banning disruptive users. This ensures a safe and friendly community.
+
+###**Example**:
 ```
 /ban @User123 Spamming inappropriate messages
 ```
-This command will ban the user "@User123" with the reason "Spamming inappropriate messages."
+This command will ban the user "@User123" with the reason: "Spamming inappropriate messages."
 
 ---
 
-## Parameters
+## **Parameters**
 
-### `@user`
+###`@user`
 - **Type**: Mention or User ID
-- **Description**: Specifies the user to be banned.
+- **Description**: Specifies the user to ban.
 - **Required**: Yes
 
 ### `reason`
-- **Type**: String
-- **Description**: The reason for banning the user. This will be logged and can be provided to the banned user if necessary.
+- **Type**: Text
+- **Description**: Explains why the user is being banned. This reason is logged and optionally shown to the banned user.
 - **Required**: No
 
 ### `days`
-- **Type**: Integer (0-7)
-- **Description**: Optionally deletes the banned user's messages from the past `n` days (0 for none, 7 for all messages from the past 7 days).
+- **Type**: Number (0-7)
+- **Description**: Deletes the user’s messages ✉️ from the past `n` days (0 = none, 7 = all messages).
 - **Required**: No
-- **Default**: 0
+- **Default**: `0`
 
 ---
 
-## Permissions
-- **Required Permission**: `BAN_MEMBERS`
-- **Bot Required Permission**: `BAN_MEMBERS`
+## **Permissions**
+- **You need**: `BAN_MEMBERS`
+- **Bot needs**: `BAN_MEMBERS` 
 
-Ensure that both the user executing the command and the bot have the appropriate permissions.
-
----
-
-## Notes
-- Banned users will not be able to rejoin the server until unbanned using the `/unban` command.
-- The reason provided (if any) will be logged and visible in the audit log.
+Make sure both you and the bot have the correct permissions to execute the command.
 
 ---
 
-## Errors
+## **Possible Errors**
 
-### Missing Permissions
-- **Message**: "You do not have the required permissions to use this command."
-- **Solution**: Ensure the user has the `BAN_MEMBERS` permission.
+### **Missing Permissions**
+- **Error Message**: "You do not have the required permissions to use this command."
+- **Fix**: Ensure you have the `BAN_MEMBERS` permission.
 
-### Missing Parameters
-- **Message**: "Please specify a user to ban."
-- **Solution**: Provide a valid user mention or ID.
+### **Missing Parameters**
+- **Error Message**: "Please specify a user to ban."
+- **Fix**: Provide a valid user mention or ID.
 
-### Invalid User
-- **Message**: "The specified user cannot be banned."
-- **Solution**: Ensure the bot has a higher role than the user being banned.
+### **Invalid User**
+- **Error Message**: "The specified user cannot be banned."
+- **Fix**: Check if the bot’s role hierarchy is above the user’s role.
 
 ---
 
-## Additional Information
-- For bulk banning, consider scripting or contacting the server administrator for assistance.
-- If you accidentally ban a user, use `/unban @user` to revoke the ban.
+##**Additional Notes**
+- Banned users cannot rejoin the server until unbanned via `/unban`.
+- Reasons provided are visible in the server audit log.
+- For bulk bans, consider scripting or contacting an administrator.
+- Mistakenly banned someone? Use `/unban @user` to lift the ban.
 
