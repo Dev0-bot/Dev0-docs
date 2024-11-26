@@ -5,7 +5,7 @@
 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.6.0.785949673833">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.6.0.785950614459">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 3.6.0">
@@ -33,11 +33,11 @@
     <script data-cfasync="false">(function () { var el = document.documentElement, m = localStorage.getItem("doc_theme"), wm = window.matchMedia; if (m === "dark" || (!m && wm && wm("(prefers-color-scheme: dark)").matches)) { el.classList.add("dark") } else { el.classList.remove("dark") } })();</script>
 
     <link href="../../../assets/logo.png" rel="icon">
-    <link href="../../../resources/css/retype.css?v=3.6.0.785949673833" rel="stylesheet">
+    <link href="../../../resources/css/retype.css?v=3.6.0.785950614459" rel="stylesheet">
 
-    <script data-cfasync="false" src="../../../resources/js/config.js?v=3.6.0.785949673833" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="../../../resources/js/config.js?v=3.6.0.785950614459" data-turbo-eval="false" defer></script>
     <script data-cfasync="false" src="../../../resources/js/retype.js?v=3.6.0" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" data-cfasync="false" src="../../../resources/js/lunr.js?v=3.6.0.785949673833" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="../../../resources/js/lunr.js?v=3.6.0.785950614459" data-turbo-eval="false" defer></script>
 </head>
 <body>
     <div id="docs-app" class="relative text-base antialiased text-gray-700 bg-white font-body dark:bg-dark-850 dark:text-dark-300">
@@ -239,6 +239,12 @@
 </doc-anchor-target>
 <p>The <code v-pre>/ban</code> commandallows server admins to permanently remove a member from the server, blocking them from rejoining until unbanned.</p>
 <hr>
+<doc-anchor-target id="syntax">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#syntax">#</doc-anchor-trigger>
+        <span>Syntax</span>
+    </h2>
+</doc-anchor-target>
 <div class="flex mb-6">
     <div class="shrink-0 w-1 rounded-tl rounded-bl bg-blue-500 dark:bg-blue-400"></div>
     <div class="flex w-full py-4 border border-l-0 border-gray-300 rounded-tr rounded-br doc-alert bg-white dark:bg-dark-700 dark:border-dark-700" role="alert">
@@ -316,35 +322,42 @@
         <span><strong>Parameters</strong></span>
     </h2>
 </doc-anchor-target>
-<p>###<code v-pre>@user</code></p>
-<ul>
-<li><strong>Type</strong>: Mention or User ID</li>
-<li><strong>Description</strong>: Specifies the user to ban.</li>
-<li><strong>Required</strong>: Yes</li>
-</ul>
-<doc-anchor-target id="reason">
-    <h3>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#reason">#</doc-anchor-trigger>
-        <span><code v-pre>reason</code></span>
-    </h3>
-</doc-anchor-target>
-<ul>
-<li><strong>Type</strong>: Text</li>
-<li><strong>Description</strong>: Explains why the user is being banned. This reason is logged and optionally shown to the banned user.</li>
-<li><strong>Required</strong>: No</li>
-</ul>
-<doc-anchor-target id="days">
-    <h3>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#days">#</doc-anchor-trigger>
-        <span><code v-pre>days</code></span>
-    </h3>
-</doc-anchor-target>
-<ul>
-<li><strong>Type</strong>: Number (0-7)</li>
-<li><strong>Description</strong>: Deletes the user’s messages <span class="docs-emoji">&#x2709;&#xFE0F;</span> from the past <code v-pre>n</code> days (0 = none, 7 = all messages).</li>
-<li><strong>Required</strong>: No</li>
-<li><strong>Default</strong>: <code v-pre>0</code></li>
-</ul>
+<div class="table-wrapper scrollbar overflow-hidden">
+<table class="comfortable">
+<thead>
+<tr>
+<th>Paramater</th>
+<th>Info</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><span class="no-link inline-flex align-middle items-center justify-center font-medium leading-none whitespace-nowrap text-green-700 bg-green-100 h-6 px-2 text-xs rounded-md">
+    <span>!user</span>
+</span></td>
+<td>Specifies the user to ban.</td>
+</tr>
+<tr>
+<td><span class="no-link inline-flex align-middle items-center justify-center font-medium leading-none whitespace-nowrap text-green-700 bg-green-100 h-6 px-2 text-xs rounded-md">
+    <span>?limit</span>
+</span></td>
+<td>A</td>
+</tr>
+<tr>
+<td><span class="no-link inline-flex align-middle items-center justify-center font-medium leading-none whitespace-nowrap text-green-700 bg-green-100 h-6 px-2 text-xs rounded-md">
+    <span>?reason</span>
+</span></td>
+<td>Explains why the user is being banned. This reason is logged and optionally shown to the banned user.</td>
+</tr>
+<tr>
+<td><span class="no-link inline-flex align-middle items-center justify-center font-medium leading-none whitespace-nowrap text-green-700 bg-green-100 h-6 px-2 text-xs rounded-md">
+    <span>?--silent</span>
+</span></td>
+<td>A</td>
+</tr>
+</tbody>
+</table>
+</div>
 <hr>
 <doc-anchor-target id="permissions">
     <h2>
@@ -395,13 +408,6 @@
 <li><strong>Fix</strong>: Check if the bot’s role hierarchy is above the user’s role.</li>
 </ul>
 <hr>
-<p>##<strong>Additional Notes</strong></p>
-<ul>
-<li>Banned users cannot rejoin the server until unbanned via <code v-pre>/unban</code>.</li>
-<li>Reasons provided are visible in the server audit log.</li>
-<li>For bulk bans, consider scripting or contacting an administrator.</li>
-<li>Mistakenly banned someone? Use <code v-pre>/unban @user</code> to lift the ban.</li>
-</ul>
 
                                 
                                 <!-- Required only on API pages -->
