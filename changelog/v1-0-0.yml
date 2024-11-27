@@ -2,14 +2,14 @@ author:
   name: 
   avatar:
   email: 
-category: [Chanagelog]
-tags: [version1, docs]
+category: [Changelog]
+tags: [version, docs]
 
 icon: dot-fill
-label: v1
-title: Version 1
+label: 
+title:
 description: 
-image: assets/WordmarkBackground.png
+image: ../assets/WordmarkBackground.png
 
 meta:
   title:
@@ -20,4 +20,4 @@ layout: defualt
 visibility: public
 order: 100
 redirect:
-route: changelog/v1
+route:

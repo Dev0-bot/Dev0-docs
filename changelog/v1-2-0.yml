@@ -1,23 +1,23 @@
 author:
   name: 
-  avatar: 
+  avatar:
   email: 
 category: [Changelog]
-tags: [changelog, docs, logs]
+tags: [version, docs]
 
-icon: archive
-label: Changelog
-title: 
+icon: dot-fill
+label: 
+title:
 description: 
 image: ../assets/WordmarkBackground.png
 
 meta:
   title:
 
-expanded: false
+expanded: true
 templating: false
 layout: defualt
 visibility: public
 order: 100
 redirect:
-route: changelog
+route:
