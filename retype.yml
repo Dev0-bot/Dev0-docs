@@ -65,13 +65,13 @@ links:                        # Custom links to add to the top bar
                               # See also: footer.links
 - text: Invite
   link: https://dev0.devvyy.xyz/invite
-  icon: paper-airplane
+  icon: assets/Logos/Discord.png
 - text: Donate
   link: https://dev0.devvyy.xyz/invite
   icon: heart-fill
 - text: Vote
   link: https://dev0.devvyy.xyz/invite
-  icon: inbox
+  icon: assets/Logos/TopGG.png
                               # a path to a file
   iconAlign: left           # Icon alignment, to the left or right
   target: blank             # Custom target
