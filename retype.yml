@@ -104,7 +104,7 @@ cache:
 
 # -----------------------------------------------------------------------------
 
-cname: false           # The CNAME file value
+cname: dev0.devvyy.xyz           # The CNAME file value
                               # or, false to not create a CNAME file
 
 # -----------------------------------------------------------------------------
@@ -130,7 +130,7 @@ exclude:                      # Files or folders to exclude from the build
 
 # -----------------------------------------------------------------------------
 
-favicon: assets/Logo.png   # Path to a custom favicon, or
+favicon: assets/Icon.ico
                               # just put a favicon.ico in your project root
 
 # -----------------------------------------------------------------------------
