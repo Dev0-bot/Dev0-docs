@@ -1,3 +1,4 @@
+![Dev0?](/assets/Banners/Dev0.png)
 **Dev0** allows Discord servers to set up a customizable system with moderation, roles, messages, economy, and more. It is designed to empower server admins with a suite of tools that enhance community management and engagement. Dev0 is fully open source, featuring a website and documentation to ensure transparency and foster community-driven improvements.
 
 ### What Makes Dev0 Unique?
