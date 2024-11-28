@@ -1,6 +1,8 @@
 ![FAQ](/assets/Banners/FAQ.png)
 Welcome to the **Dev0 FAQ**! Below you'll find answers to common questions about the platform. If your question isn’t listed, feel free to reach out via our [GitHub Discussions](https://github.com/orgs/Dev0-bot/discussions) or Discord community.
 
+---
+
 ## :icon-question: General Questions
 
 ### What is Dev0?
@@ -8,6 +10,8 @@ Dev0 is an open-source bot designed to help Discord server admins manage their c
 
 ### Is Dev0 free to use?
 Yes! Dev0 is completely free and open source. You can also contribute to its development or modify it to suit your needs. Dev0 also offers a premium service with some extra benefits!
+
+---
 
 ## :icon-accessibility: Setup and Usage
 
@@ -25,6 +29,8 @@ You can access our full documentation [here](https://dev0.devvyy.xyz).
 ### Can I customize Dev0 for my server?
 Absolutely! Dev0 is highly customizable, allowing you to configure moderation rules, role assignments, and even your server’s economy system. Check out the documentation for detailed guides.
 
+---
+
 ## :icon-file-code: Technical Questions
 
 ### Where is the source code hosted?
@@ -35,6 +41,8 @@ Dev0 is built using JavaScript and Node.js for the bot, and its supporting site 
 
 ### How do I report a bug or suggest a feature?
 You can report bugs or suggest features via our [GitHub Issues](https://github.com/Dev0-bot/dev0-source/issues) page.
+
+---
 
 ## :icon-comment-discussion: Community and Support
 
