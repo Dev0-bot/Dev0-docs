@@ -1,0 +1,23 @@
+author:
+  name: 
+  avatar: 
+  email: 
+category: [Extra]
+tags: [extra, docs, bonus]
+
+icon: ../../assets/Logos/Discadia.png
+label: Discadia.com
+title: 
+description: 
+image: ../assets/WordmarkBackground.png
+
+meta:
+  title:
+
+expanded: false
+templating: false
+layout: page
+visibility: public
+order: 
+redirect:
+route: discadia

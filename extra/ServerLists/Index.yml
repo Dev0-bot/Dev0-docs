@@ -1,0 +1,23 @@
+author:
+  name: 
+  avatar: 
+  email: 
+category: [Extra]
+tags: [extra, docs, bonus]
+
+icon: https://cdn.discordapp.com/emojis/1309296602560860231.png?size=128
+label: Server lists
+title: 
+description: 
+image: ../assets/WordmarkBackground.png
+
+meta:
+  title:
+
+expanded: false
+templating: false
+layout: defualt
+visibility: public
+order: 97
+redirect:
+route: extra/lists

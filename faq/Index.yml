@@ -18,6 +18,6 @@ expanded: false
 templating: false
 layout: defualt
 visibility: public
-order: 97
+order: 96
 redirect:
 route: faq

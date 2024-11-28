@@ -67,10 +67,10 @@ links:                        # Custom links to add to the top bar
   link: https://dev0.devvyy.xyz/invite
   icon: assets/Logos/Discord.png
 - text: Donate
-  link: https://dev0.devvyy.xyz/invite
+  link: https://dev0.devvyy.xyz/donate
   icon: heart-fill
 - text: Vote
-  link: https://dev0.devvyy.xyz/invite
+  link: https://dev0.devvyy.xyz/vote
   icon: assets/Logos/TopGG.png
                               # a path to a file
   iconAlign: left           # Icon alignment, to the left or right
@@ -95,7 +95,7 @@ footer:
       icon: git-branch
     - text: Source
       link: https://github.com/Dev0-bot/dev0-docs
-      icon: mark-github
+      icon: assets/Logos/Github.png
 
 # -----------------------------------------------------------------------------
 
