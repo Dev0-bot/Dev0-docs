@@ -1,0 +1,24 @@
+author:
+  name: 
+  avatar:
+  email: 
+category: [main, general]
+tags: [commands, docs, basic]
+
+icon: fiscal-host
+label: Economy
+
+title: 
+description: 
+image: assets/WordmarkBackground.png
+
+meta:
+  title:
+
+expanded: false
+templating: false
+layout: defualt
+visibility: public
+order: 
+redirect:
+route:

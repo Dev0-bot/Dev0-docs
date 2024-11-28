@@ -1,0 +1,24 @@
+author:
+  name: 
+  avatar:
+  email: 
+category: [Moderation]
+tags: [commands, docs, moderation]
+
+icon: dot-fill
+label: Ban
+
+title: 
+description: 
+image: assets/WordmarkBackground.png
+
+meta:
+  title:
+
+expanded: false
+templating: false
+layout: defualt
+visibility: public
+order: 
+redirect:
+route:

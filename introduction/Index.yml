@@ -14,7 +14,7 @@ image: assets/WordmarkBackground.png
 meta:
   title:
 
-expanded: false
+expanded: true
 templating: false
 layout: defualt
 visibility: public
