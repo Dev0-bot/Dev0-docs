@@ -5,7 +5,7 @@
 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.6.0.786082421196">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.6.0.786084576276">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 3.6.0">
@@ -13,7 +13,7 @@
     <!-- Primary Meta Tags -->
     <title>Ban | DEV0 DOCS</title>
     <meta name="title" content="Ban | DEV0 DOCS">
-    <meta name="description" content="\\ban MEMBER(S) PARAMETER(S)">
+    <meta name="description" content="The ban command allows server admins to permanently remove a member from the server, blocking them from rejoining until unbanned.">
 
     <!-- Canonical -->
     <link rel="canonical" href="https://dev0.devvyy.xyz/commands/moderation/ban/">
@@ -22,22 +22,22 @@
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://dev0.devvyy.xyz/commands/moderation/ban/">
     <meta property="og:title" content="Ban | DEV0 DOCS">
-    <meta property="og:description" content="\\ban MEMBER(S) PARAMETER(S)">
+    <meta property="og:description" content="The ban command allows server admins to permanently remove a member from the server, blocking them from rejoining until unbanned.">
 
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image">
     <meta property="twitter:url" content="https://dev0.devvyy.xyz/commands/moderation/ban/">
     <meta property="twitter:title" content="Ban | DEV0 DOCS">
-    <meta property="twitter:description" content="\\ban MEMBER(S) PARAMETER(S)">
+    <meta property="twitter:description" content="The ban command allows server admins to permanently remove a member from the server, blocking them from rejoining until unbanned.">
 
     <script data-cfasync="false">(function () { var el = document.documentElement, m = localStorage.getItem("doc_theme"), wm = window.matchMedia; if (m === "dark" || (!m && wm && wm("(prefers-color-scheme: dark)").matches)) { el.classList.add("dark") } else { el.classList.remove("dark") } })();</script>
 
     <link href="../../../assets/icon.ico" rel="icon">
-    <link href="../../../resources/css/retype.css?v=3.6.0.786082421196" rel="stylesheet">
+    <link href="../../../resources/css/retype.css?v=3.6.0.786084576276" rel="stylesheet">
 
-    <script data-cfasync="false" src="../../../resources/js/config.js?v=3.6.0.786082421196" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="../../../resources/js/config.js?v=3.6.0.786084576276" data-turbo-eval="false" defer></script>
     <script data-cfasync="false" src="../../../resources/js/retype.js?v=3.6.0" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" data-cfasync="false" src="../../../resources/js/lunr.js?v=3.6.0.786082421196" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="../../../resources/js/lunr.js?v=3.6.0.786084576276" data-turbo-eval="false" defer></script>
 
     <style>
         .red {
@@ -49,6 +49,9 @@
         }
         .blue {
             color: #0000ff;
+        }
+        .orange {
+            color: #ff6600;
         }
     </style>
 </head>
@@ -232,15 +235,13 @@
     <div><a href="../../../categories/moderation/">Moderation</a></div>
 </div>
 
-<hr>
 <doc-anchor-target id="description">
     <h2>
         <doc-anchor-trigger class="header-anchor-trigger" to="#description">#</doc-anchor-trigger>
-        <span><strong>Description</strong></span>
+        <span>Description</span>
     </h2>
 </doc-anchor-target>
-<p>The `/ban`</p> command allows server admins to permanently remove a member from the server, blocking them from rejoining until unbanned.
-<hr>
+<p>The <strong>ban</strong> command allows server admins to permanently remove a member from the server, blocking them from rejoining until unbanned.</p>
 <doc-anchor-target id="syntax">
     <h2>
         <doc-anchor-trigger class="header-anchor-trigger" to="#syntax">#</doc-anchor-trigger>
@@ -260,8 +261,8 @@
             </svg>
         </div>
         <div class="pr-5 ml-3 w-full">
-            <h5>Text command syntax</h5>
-<p><strong>\ban</strong> <strong>MEMBER(S)</strong> <strong>PARAMETER(S)</strong></p>
+            <h5>Text command</h5>
+<p><strong>\ban</strong> <span class="orange"><strong>MEMBER(S)</strong></span> <span class="orange"><strong>PARAMETER(S)</strong></span></p>
         </div>
     </div>
 </div>
@@ -278,9 +279,9 @@
             </svg>
         </div>
         <div class="pr-5 ml-3 w-full">
-            <h5>Slash command syntax</h5>
-<p><strong>/Ban</strong><code v-pre>!user:</code> <code v-pre>?limit:</code> <code v-pre>?reason:</code> <code v-pre>?--silent:</code></p>
-<p>Note: Any parameter prefixed with ! is <strong>required</strong>, and ones with ? Are optional</p>
+            <h5>Slash command</h5>
+<p><strong>/Ban</strong> <code v-pre>!user:</code> <code v-pre>?limit:</code> <code v-pre>?reason:</code> <code v-pre>?--silent:</code></p>
+<p><span class="red">Note:</span> Any parameter prefixed with <span class="red">!</span> is required, and ones with <span class="red">?</span> Are optional</p>
         </div>
     </div>
 </div>
@@ -304,31 +305,13 @@
 </thead>
 </table>
 </div>
-<hr>
-<doc-anchor-target id="usage">
-    <h2>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#usage">#</doc-anchor-trigger>
-        <span>Usage</span>
-    </h2>
-</doc-anchor-target>
-<p>The <code v-pre>/ban</code> command helps enforce server rules by banning disruptive users. This ensures a safe and friendly community.</p>
-<doc-anchor-target id="example">
-    <h3>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#example">#</doc-anchor-trigger>
-        <span>Example</span>
-    </h3>
-</doc-anchor-target>
-<div class="codeblock-wrapper"><doc-codeblock line-numbers>
-<pre class="language-none"><code v-pre class="language-none">/ban @User123 Spamming inappropriate messages</code></pre>
-</doc-codeblock></div>
-<p>This command will ban the user &quot;@User123&quot; with the reason: &quot;Spamming inappropriate messages.&quot;</p>
-<hr>
 <doc-anchor-target id="parameters">
     <h2>
         <doc-anchor-trigger class="header-anchor-trigger" to="#parameters">#</doc-anchor-trigger>
         <span>Parameters</span>
     </h2>
 </doc-anchor-target>
+<p>Parameters are the options you can provide if you want extra input or a custom behaviour. They must come after the <span class="red">required paramaters</span>, The parameters available for this command are as follows:</p>
 <div class="table-wrapper scrollbar overflow-hidden">
 <table class="comfortable">
 <thead>
@@ -360,61 +343,38 @@
 <td><span class="no-link inline-flex align-middle items-center justify-center font-medium leading-none whitespace-nowrap text-green-700 bg-green-100 h-6 px-2 text-xs rounded-md">
     <span>?--silent</span>
 </span></td>
-<td>A</td>
+<td>If set, prevents notifications about the kick.</td>
 </tr>
 </tbody>
 </table>
 </div>
-<hr>
 <doc-anchor-target id="permissions">
     <h2>
         <doc-anchor-trigger class="header-anchor-trigger" to="#permissions">#</doc-anchor-trigger>
         <span>Permissions</span>
     </h2>
 </doc-anchor-target>
-<ul>
-<li><strong>You need</strong>: <code v-pre>BAN_MEMBERS</code></li>
-<li><strong>Bot needs</strong>: <code v-pre>BAN_MEMBERS</code></li>
-</ul>
-<p>Make sure both you and the bot have the correct permissions to execute the command.</p>
-<hr>
-<doc-anchor-target id="possible-errors">
-    <h2>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#possible-errors">#</doc-anchor-trigger>
-        <span><strong>Possible Errors</strong></span>
-    </h2>
-</doc-anchor-target>
-<doc-anchor-target id="missing-permissions">
-    <h3>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#missing-permissions">#</doc-anchor-trigger>
-        <span><strong>Missing Permissions</strong></span>
-    </h3>
-</doc-anchor-target>
-<ul>
-<li><strong>Error Message</strong>: &quot;You do not have the required permissions to use this command.&quot;</li>
-<li><strong>Fix</strong>: Ensure you have the <code v-pre>BAN_MEMBERS</code> permission.</li>
-</ul>
-<doc-anchor-target id="missing-parameters">
-    <h3>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#missing-parameters">#</doc-anchor-trigger>
-        <span><strong>Missing Parameters</strong></span>
-    </h3>
-</doc-anchor-target>
-<ul>
-<li><strong>Error Message</strong>: &quot;Please specify a user to ban.&quot;</li>
-<li><strong>Fix</strong>: Provide a valid user mention or ID.</li>
-</ul>
-<doc-anchor-target id="invalid-user">
-    <h3>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#invalid-user">#</doc-anchor-trigger>
-        <span><strong>Invalid User</strong></span>
-    </h3>
-</doc-anchor-target>
-<ul>
-<li><strong>Error Message</strong>: &quot;The specified user cannot be banned.&quot;</li>
-<li><strong>Fix</strong>: Check if the bot’s role hierarchy is above the user’s role.</li>
-</ul>
-<hr>
+<p>Permissions dictate what users or roles can use specific commands. They are essential to ensure the bot operates securely and aligns with your server’s hierarchy. Permissions must be configured after specifying the required roles for this command. The needed permissions for this command are as follows:</p>
+<div class="table-wrapper scrollbar overflow-hidden">
+<table class="comfortable">
+<thead>
+<tr>
+<th>Bot</th>
+<th>Author</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><span class="no-link inline-flex align-middle items-center justify-center font-medium leading-none whitespace-nowrap text-green-700 bg-green-100 h-6 px-2 text-xs rounded-md">
+    <span>BAN_MEMBERS</span>
+</span></td>
+<td><span class="no-link inline-flex align-middle items-center justify-center font-medium leading-none whitespace-nowrap text-green-700 bg-green-100 h-6 px-2 text-xs rounded-md">
+    <span>BAN_MEMBERS</span>
+</span></td>
+</tr>
+</tbody>
+</table>
+</div>
 
                                 <div class="flex items-center mt-6 mb-6 clear-both">
                                     <span>
