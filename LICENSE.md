@@ -1,13 +1,3 @@
----
-icon: log
-label: License
-description: 
-layout: defualt
-categories: [guide]
-tags: [guide, legal, license]
-expanded: true
-visibility: hidden
----
 MIT License
 
 Copyright (c) 2024 DevvyyXYZ

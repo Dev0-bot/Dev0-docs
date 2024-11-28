@@ -1,13 +1,3 @@
----
-icon: code-of-conduct
-label: Code of conduct
-description: 
-layout: defualt
-categories: [guide]
-tags: [guide, codeofconduct, legal]
-expanded: true
-visibility: hidden
----
 # Contributor Covenant Code of Conduct
 
 ## Our Pledge

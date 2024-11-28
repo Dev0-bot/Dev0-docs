@@ -80,6 +80,7 @@ links:                        # Custom links to add to the top bar
 # -----------------------------------------------------------------------------
 
 footer:
+  text: E
   copyright: "devvyyxyz © All rights reserved." # A custom copyright statement
   links:                      # A list of links to include in the footer
                               # See also: links

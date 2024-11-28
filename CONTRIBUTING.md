@@ -1,13 +1,3 @@
----
-icon: commit
-label: Uploading & contributing
-description: 
-layout: defualt
-categories: [guide]
-tags: [guide]
-expanded: true
-visibility: hidden
----
 # Uploading Mods via GitHub Pull Requests
 
 To contribute your mods to this repository, you can submit a pull request using either the GitHub web interface or your local machine. Follow the steps below for your preferred method.
