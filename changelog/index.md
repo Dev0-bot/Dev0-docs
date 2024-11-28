@@ -2,13 +2,8 @@
 
 Welcome to the **Dev0 Changelog**! This page highlights updates, improvements, and fixes in each version of Dev0. Stay updated with the latest changes and features.
 
-:::code source="v1-3-0.md" :::
-
-:::code source="v1-2-0.md" :::
-
-:::code source="v1-1-0.md" :::
-
-:::code source="v1-0-0.md" :::
+## Version 1
+:::code source="v1.md" :::
 
 ---
 
