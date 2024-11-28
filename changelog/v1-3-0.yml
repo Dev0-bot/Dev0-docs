@@ -1,0 +1,23 @@
+author:
+  name: 
+  avatar:
+  email: 
+category: [Changelog]
+tags: [version, docs]
+
+icon: dot-fill
+label: 
+title:
+description: 
+image: ../assets/WordmarkBackground.png
+
+meta:
+  title:
+
+expanded: true
+templating: false
+layout: defualt
+visibility: public
+order: 100
+redirect:
+route:
