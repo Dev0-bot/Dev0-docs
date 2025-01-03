@@ -1,17 +1,17 @@
-## Description
-
 The **ban** command allows server admins to permanently remove a member from the server, blocking them from rejoining until unbanned.
 
 ## Syntax
-!!! Text command
+::info 
+Text command
 **\ban** <span class="orange">**MEMBER(S)**</span> <span class="orange">**PARAMETER(S)**</span>
-!!!
+:::
 
-!!! Slash command
+:::tip
+Slash command
 **/Ban** `!user:` `?limit:` `?reason:` `?--silent:`
 
 <span class="red">Note:</span> Any parameter prefixed with <span class="red">!</span> is required, and ones with <span class="red">?</span> Are optional
-!!!
+:::
 
 ## **Aliases**
 
